@@ -18,7 +18,7 @@ func main() {
 func greeting(s string) {
 	for i := 0; i < 6; i++ {
 		// sleep for a second
-		time.Sleep(3 * time.Millisecond)  // sllep waits for goroutine to be complete
+		time.Sleep(3 * time.Millisecond)  // sleep waits for goroutine to be completed
 		fmt.Println(s)
 	}
 }
